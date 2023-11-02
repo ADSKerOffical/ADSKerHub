@@ -641,7 +641,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AtomGotIce/Scripts/ma
 end)
 
 OpSection:NewButton("VOID", "VOID", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Deniskapipiska/VOID/main/Void.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/VOIDhor/main/Void3338"))()
 end)
 
 local Op = Window:NewTab("Misc")
