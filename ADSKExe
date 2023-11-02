@@ -1269,6 +1269,19 @@ OpSection:NewButton("LN hub", "LN hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/No6No6No7yt/Lumin-Hub/main/BladeV4.lua'))()
 end)
 
+OpSection:NewButton("Auto parry", "Auto parry", function()
+getgenv().visualizer = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+end)
+
+OpSection:NewButton("Nexus", "Nexus", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+end)
+
+OpSection:NewButton("Crazzy hub", "Crazzy hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Blade%20Ball"))()
+end)
+
 local OpSection = Op:NewSection("Infection smile")
 
 OpSection:NewButton("Multi hub", "Multi hub", function()
@@ -1347,6 +1360,52 @@ end)
 
 OpSection:NewButton("Show hub", "Show hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ZPSXHUB/Hub/main/SnowHub-BloxFruit'))()
+end)
+
+OpSection:NewButton("Domadic hub", "Domadic hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+end)
+
+OpSection:NewButton("Zee hub", "Zee hub", function()
+loadstring(game:HttpGet("https://gitlab.com/vip-script/BF/-/raw/main/ZeeHubVIP.lua"))()
+end)
+
+OpSection:NewButton("MTriet hub", "MTriet hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+end)
+
+OpSection:NewButton("Sara hub", "Sara hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SaraSenpai/bloxfruist/main/Sarahub'))()
+end)
+
+OpSection:NewButton("Ganteng hub", "Ganteng hub", function()
+loadstring(game:HttpGet("https://isnahamzahpastebin.tech/v1/gantenghubv1_017.lua"))()
+end)
+
+OpSection:NewButton("Tsuo hub", "Tsuo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+end)
+
+OpSection:NewButton("Vector hub", "Vector hub", function()
+_G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+end)
+
+OpSection:NewButton("Master hub", "Master hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
+end)
+
+OpSection:NewButton("Hoho hub", "Hoho hub", function()
+_G.HohoVersion = "v3"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+OpSection:NewButton("Thunder Z", "Thunder Z", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/TestKey')))()
+end)
+
+OpSection:NewButton("Hung hub", "Hung hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
 end)
 
 local OpSection = Op:NewSection("Ninja legends")
