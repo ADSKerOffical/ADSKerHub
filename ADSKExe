@@ -1487,3 +1487,7 @@ end)
 OpSection:NewButton("SmileGUI", "SmileGUI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/SmileGUI/main/SmileHax33"))()
 end)
+
+OpSection:NewButton("Free admin GUI", "Free admin GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/FreeAdmin/main/GUI"))()
+end)
