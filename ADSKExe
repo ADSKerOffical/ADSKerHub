@@ -6,6 +6,10 @@ game.StarterGui:SetCore("SendNotification", {
     Button1 = "OK";
 })
 
+wait()
+
+game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Updates will not be released soon", Color = Color3.fromRGB( 255,0,0 ), Font = Enum.Font.Arial } )
+
 wait(2)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
@@ -174,6 +178,34 @@ end)
 
 OpSection:NewButton("Psy hub", "Psy hub", function()
 loadstring(game:GetObjects("rbxassetid://3014051754")[1].Source)()
+end)
+
+OpSection:NewButton("Coco hub", "Coco hub", function()
+loadstring(game:HttpGet(('https://gitlab.com/cococc/cocohub/-/raw/master/CocoLoader'),true))()
+end)
+
+OpSection:NewButton("Equinox hub", "Equinox hub", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/wzB1Qh78"), true))()
+end)
+
+OpSection:NewButton("British hub", "British hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedCoat8102/Britishhub/main/Protected_5528274969578405.lua.txt"))()
+end)
+
+OpSection:NewButton("Juanko hub", "Juanko hub", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/d5BS5qiX"))()
+end)
+
+OpSection:NewButton("Ghub", "Ghub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/GHUBUIV11/main/GHUBV11S.txt"))()
+end)
+
+OpSection:NewButton("Trap hub", "Trap hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+end)
+
+OpSection:NewButton("Gatalic hub", "Gatalic hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/Main"))()
 end)
 
 local Op = Window:NewTab("Game")
@@ -684,6 +716,10 @@ OpSection:NewButton("mobile keyboard", "mobile keyboard", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
+OpSection:NewButton("Animation", "Animation", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vrDfzbiA"))()
+end)
+
 OpSection:NewButton("Vfly", "Vfly", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
@@ -1177,6 +1213,22 @@ while h:Wait() and c and c.Parent do
 end
 end)
 
+OpSection:NewButton("Grab parts", "Grab parts", function()
+loadstring(game:HttpGet(('https://pastefy.app/BbXuvVkK/raw'),true))()
+end)
+
+OpSection:NewButton("Unanchored GUI", "Unanchored GUI", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
+end)
+
+OpSection:NewButton("NPC control", "NPC control", function()
+loadstring(game:HttpGet(('https://pastefy.app/x8nWWq0M/raw'),true))()
+end)
+
+OpSection:NewButton("Sword modification", "Sword modification", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/enzX3411"))()
+end)
+
 local Op = Window:NewTab("Pack")
 
 local OpSection = Op:NewSection("Slap battles")
@@ -1414,6 +1466,10 @@ OpSection:NewButton("Proxima hub", "Proxima hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
 end)
 
+OpSection:NewButton("Strike hub", "Strike hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+
 local OpSection = Op:NewSection("Chaos")
 
 OpSection:NewButton("Astral hub", "Astral hub", function()
@@ -1422,6 +1478,24 @@ end)
 
 OpSection:NewButton("Kill GUI", "Kill GUI", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/W9SYMbiw"))()
+end)
+
+local OpSection = Op:NewSection("Radgoll engine")
+
+OpSection:NewButton("Malware hub", "Malware hub", function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+end)
+
+OpSection:NewButton("System broken", "System broken", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
+OpSection:NewButton("Next hub", "Next hub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Qwarle/Main_Scripts/main/QUI.lua' )))()
+end)
+
+OpSection:NewButton("Treasure hub", "Treasure hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nrg12345/TreasureHub/main/TreasureHub.lua"))()
 end)
 
 local OpSection = Op:NewSection("Saitama battleground")
@@ -1444,6 +1518,16 @@ OpSection:NewButton("Auto farm", "Auto farm", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/tyLHq8cT"))()
 end)
 
+local OpSection = Op:NewSection("Ability wars")
+
+OpSection:NewButton("GUI", "GUI", function()
+loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj"))()
+end)
+
+OpSection:NewButton("GUI", "GUI", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Ability%20Wars')))()
+end)
+
 local OpSection = Op:NewSection("Arsenal")
 
 OpSection:NewButton("GUI", "GUI", function()
@@ -1452,6 +1536,32 @@ end)
 
 OpSection:NewButton("Owl hub", "Owl hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+local OpSection = Op:NewSection("Prison life")
+
+OpSection:NewButton("Prisonware", "Prisonware", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+end)
+
+OpSection:NewButton("Nexus hub", "Nexus hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main"))()
+end)
+
+OpSection:NewButton("SuniX", "SuniX", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RayzMd/SyniX/main/Beta"))()
+end)
+
+OpSection:NewButton("GUI", "GUI", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rfAULQ83"))()
+end)
+
+OpSection:NewButton("GUI", "GUI", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VHnxgyBQ"))()
+end)
+
+OpSection:NewButton("GUI", "GUI", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gzFFc9tX"))()
 end)
 
 local Op = Window:NewTab("Creator")
