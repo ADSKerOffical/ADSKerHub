@@ -14,7 +14,7 @@ wait(2)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("ADSKer hub v1.1.7 beta", "DarkTheme")
+local Window = Library.CreateLib("ADSKer hub v1.1.7 beta", "GrapeTheme")
 
 local Op = Window:NewTab("Admin")
 
@@ -206,6 +206,34 @@ end)
 
 OpSection:NewButton("Gatalic hub", "Gatalic hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/Main"))()
+end)
+
+OpSection:NewButton("JTF hub", "JTF hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NEWBUTIF/Universal-Script-Hub/main/Butif%20Hub"))()
+end)
+
+OpSection:NewButton("Haxker_6666666", "Haxker_6666666", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FreeRobloxScripts1/Haxker_6666666-Hub/main/Script-Hub/Version-3.1'))()
+end)
+
+OpSection:NewButton("Vex hub", "Vex hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/On-Discord/Created/VexHub"))()
+end)
+
+OpSection:NewButton("Astrava hub", "Astrava hub", function()
+loadstring(game:GetObjects("rbxassetid://1468845733")[1].Source)()
+end)
+
+OpSection:NewButton("USH hub", "USH hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/USH.P/main/rotected",true))()
+end)
+
+OpSection:NewButton("Alysse hub", "Alysse hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NathTheDev/AlysseAndroid/main/loader.lua"))()
+end)
+
+OpSection:NewButton("Pissware", "Pissware", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/Pissware/main/Main/MobileMain.lua"))()
 end)
 
 local Op = Window:NewTab("Game")
