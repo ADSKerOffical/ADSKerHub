@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "ADSKer Hub";
-    Icon = "rbxassetid://7279804519";
+    Icon = "rbxassetid://9913176040";
     Text = "Thank you for using ADSKer hub";
     Duration = 10;
     Button1 = "OK";
@@ -14,7 +14,7 @@ wait(2)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("ADSKer hub v1.1.7 beta", "GrapeTheme")
+local Window = Library.CreateLib("ADSKer hub v1.1.7", "BloodTheme")
 
 local Op = Window:NewTab("Admin")
 
@@ -1255,6 +1255,19 @@ end)
 
 OpSection:NewButton("Sword modification", "Sword modification", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/enzX3411"))()
+end)
+
+OpSection:NewButton("Zero gravity parts", "Zero gravity parts", function()
+local play, rWFGCSGo, ga = game, "REKDiMxg", "app"
+loadstring(play:HttpGet(("https://pastefy."..ga.."/"..rWFGCSGo.."/raw"),true))()
+end)
+
+OpSection:NewButton("Parts mover", "Parts mover", function()
+loadstring(game:HttpGet(('https://pastefy.app/Vcuyg09O/raw'),true))()
+end)
+
+OpSection:NewButton("Vereus", "Vereus", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Legenda06/Client-Replication/main/Fe"))()
 end)
 
 local Op = Window:NewTab("Pack")
