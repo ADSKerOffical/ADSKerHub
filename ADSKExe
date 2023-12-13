@@ -1,14 +1,11 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "ADSKer Hub";
-    Icon = "rbxassetid://9913176040";
-    Text = "Thank you for using ADSKer hub";
-    Duration = 10;
-    Button1 = "OK";
-})
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 
-wait()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
-game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Updates will not be released soon", Color = Color3.fromRGB( 255,0,0 ), Font = Enum.Font.Arial } )
+Notification:Notify(
+    {Title = "ADSKer Hub", Description = "Thank you for using ADSKer Hub"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
 
 wait(2)
 
