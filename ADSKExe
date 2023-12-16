@@ -1639,3 +1639,11 @@ end)
 OpSection:NewButton("Free admin GUI", "Free admin GUI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/FreeAdmin/main/GUI"))()
 end)
+
+OpSection:NewButton("Doge Head Escape", "Doge Head Escape", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Main/main/DogeHeadEscape"))()
+end)
+
+OpSection:NewButton("Escape Felipe Head", "Escape Felipe Head", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Felipe/main/EscapeRinningHead"))()
+end)
