@@ -1325,6 +1325,24 @@ OpSection:NewButton("Dark client hub", "Dark client hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/ECCeYtXA"))()
 end)
 
+OpSection:NewButton("Admin panel v2", "Admin panel v2", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptemt/CE-Technologies/main/script', true))()
+end)
+
+OpSection:NewButton("Nexus", "Nexus", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+end)
+
+OpSection:NewButton("Eclipse Hub", "Eclipse Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+OpSection:NewButton("Xenny ware", "Xenny ware", function()
+repeat wait() until game.Players.LocalPlayer.Character
+url = "https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"
+loadstring(game:HttpGet(url))()
+end)
+
 local OpSection = Op:NewSection("Brookhaven")
 
 OpSection:NewButton("Ice hub", "Ice hub", function()
@@ -1508,6 +1526,14 @@ OpSection:NewButton("Strike hub", "Strike hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
 end)
 
+OpSection:NewButton("horizon cc", "horizon cc", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadetamic/horizon/main/loadstring.lua"))()
+end)
+
+OpSection:NewButton("BlackTra", "BlackTra", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
+end)
+
 local OpSection = Op:NewSection("Chaos")
 
 OpSection:NewButton("Astral hub", "Astral hub", function()
@@ -1600,6 +1626,10 @@ end)
 
 OpSection:NewButton("GUI", "GUI", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/gzFFc9tX"))()
+end)
+
+OpSection:NewButton("Tiger admin", "Tiger admin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))("https://t.me/arceusxscripts")
 end)
 
 local Op = Window:NewTab("Creator")
