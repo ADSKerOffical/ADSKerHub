@@ -1682,8 +1682,8 @@ OpSection:NewButton("Bypasser link", "Bypasser link", function()
 setclipboard("https://bypass.city/")
 end)
 
-OpSection:NewButton("Telegram group", "Telegram group", function()
-setclipboard("https://t.me/ROBLOXHACKERATTACKS")
+OpSection:NewButton("Telegram Channel", "Telegram Channel", function()
+setclipboard("https://t.me/SCRIPTSG")
 end)
 
 local OpSection = Op:NewSection("GUIs by me")
