@@ -3,7 +3,7 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "ADSKer Hub", Description = "Thank you for using ADSKer Hub"},
+    {Title = "ADSKer Hub", Description = "Are you really using this?"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 )
 
@@ -11,7 +11,7 @@ wait(2)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("ADSKer hub v1.1.7", "BloodTheme")
+local Window = Library.CreateLib("ADSKer hub v1.1.8 beta", "BloodTheme")
 
 local Op = Window:NewTab("Admin")
 
@@ -1265,6 +1265,44 @@ end)
 
 OpSection:NewButton("Vereus", "Vereus", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Legenda06/Client-Replication/main/Fe"))()
+end)
+
+OpSection:NewButton("Lightsaber", "Lightsaber", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KdVq9EHW", true))()
+end)
+
+OpSection:NewButton("Fling All", "Fling All", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+end)
+
+OpSection:NewButton("Pencil", "Pencil", function()
+local dop = Instance.new("Tool",game.Players.LocalPlayer.Backpack)
+dop.Name = "black pencil"
+dop.GripPos = Vector3.new(0,0,2.5)
+local dedp = Instance.new("Part",dop)
+dedp.Name = "Handle"
+dedp.Color = Color3.new(0,0,0)
+dedp.Size = Vector3.new(1,1,5)
+end)
+
+OpSection:NewButton("Dual sword titan", "Dual sword titan", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gxvY36sP"))()
+end)
+
+OpSection:NewButton("Lua Hammer", "Lua Hammer", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RKY5fTXh"))()
+end)
+
+OpSection:NewButton("Lost scythe", "Lost scythe", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ku2PFi6f"))()
+end)
+
+OpSection:NewButton("Illuminati laser", "Illuminati laser", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4mkGUgsq"))()
+end)
+
+OpSection:NewButton("Sword God", "Sword God", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2S41s6rL"))()
 end)
 
 local Op = Window:NewTab("Pack")
